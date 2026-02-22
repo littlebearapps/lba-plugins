@@ -1,0 +1,28 @@
+{
+  "name": "lba-plugins",
+  "owner": {
+    "name": "Little Bear Apps",
+    "email": "hello@littlebearapps.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Little Bear Apps infrastructure and projects"
+  },
+  "plugins": [
+    {
+      "name": "platform-sdk",
+      "source": {
+        "source": "github",
+        "repo": "littlebearapps/platform-sdk-plugin"
+      },
+      "description": "LBA Platform SDK integration for Cloudflare Workers. Enforces SDK conventions, validates cost safety, provides integration patterns for circuit breakers, feature budgets, telemetry, error collection, and observability.",
+      "category": "infrastructure",
+      "tags": ["platform-sdk", "cloudflare", "workers", "cost-safety", "circuit-breaker"],
+      "author": {
+        "name": "Little Bear Apps",
+        "email": "hello@littlebearapps.com"
+      },
+      "homepage": "https://github.com/littlebearapps/platform-sdk-plugin",
+      "license": "MIT"
+    }
+  ]
+}
