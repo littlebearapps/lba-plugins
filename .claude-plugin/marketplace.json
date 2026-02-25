@@ -25,19 +25,19 @@
       "license": "MIT"
     },
     {
-      "name": "repo-docs",
+      "name": "pitchdocs",
       "source": {
         "source": "github",
-        "repo": "littlebearapps/repo-docs-plugin"
+        "repo": "littlebearapps/pitchdocs"
       },
-      "description": "Generate high-quality public-facing repository documentation with a marketing edge. READMEs that sell, changelogs that communicate value, roadmaps from GitHub Projects, user guides, and full docs suite auditing.",
+      "description": "Pitch-perfect documentation for every repository. READMEs that sell, changelogs that communicate value, roadmaps from GitHub Projects, user guides, and full docs suite auditing.",
       "category": "documentation",
       "tags": ["documentation", "readme", "changelog", "roadmap", "marketing", "user-guides"],
       "author": {
         "name": "Little Bear Apps",
         "email": "hello@littlebearapps.com"
       },
-      "homepage": "https://github.com/littlebearapps/repo-docs-plugin",
+      "homepage": "https://github.com/littlebearapps/pitchdocs",
       "license": "MIT"
     }
   ]
