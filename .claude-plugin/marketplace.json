@@ -9,26 +9,10 @@
   },
   "plugins": [
     {
-      "name": "platform-sdk",
-      "source": {
-        "source": "github",
-        "repo": "littlebearapps/platform-sdk-plugin"
-      },
-      "description": "LBA Platform SDK integration for Cloudflare Workers. Enforces SDK conventions, validates cost safety, provides integration patterns for circuit breakers, feature budgets, telemetry, error collection, and observability.",
-      "category": "infrastructure",
-      "tags": ["platform-sdk", "cloudflare", "workers", "cost-safety", "circuit-breaker"],
-      "author": {
-        "name": "Little Bear Apps",
-        "email": "hello@littlebearapps.com"
-      },
-      "homepage": "https://github.com/littlebearapps/platform-sdk-plugin",
-      "license": "MIT"
-    },
-    {
       "name": "pitchdocs",
       "source": {
-        "source": "github",
-        "repo": "littlebearapps/pitchdocs"
+        "source": "git",
+        "url": "https://github.com/littlebearapps/pitchdocs.git"
       },
       "description": "Pitch-perfect documentation for every repository. READMEs that sell, changelogs that communicate value, roadmaps from GitHub Projects, user guides, and full docs suite auditing.",
       "category": "documentation",
