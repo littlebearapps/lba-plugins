@@ -23,6 +23,22 @@
       },
       "homepage": "https://github.com/littlebearapps/pitchdocs",
       "license": "MIT"
+    },
+    {
+      "name": "contextdocs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/littlebearapps/contextdocs.git"
+      },
+      "description": "AI context file management for 7 tools. Generate, maintain, and audit AGENTS.md, CLAUDE.md, .cursorrules, and more with Signal Gate filtering and Context Guard hooks.",
+      "category": "developer-tools",
+      "tags": ["ai-context", "agents-md", "claude-md", "context-guard", "signal-gate", "cursor", "copilot"],
+      "author": {
+        "name": "Little Bear Apps",
+        "email": "hello@littlebearapps.com"
+      },
+      "homepage": "https://github.com/littlebearapps/contextdocs",
+      "license": "MIT"
     }
   ]
 }
