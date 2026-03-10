@@ -24,7 +24,7 @@
 | Plugin | What It Does | Version | Links |
 |--------|-------------|---------|-------|
 | **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 13 commands, 3-agent pipeline | v1.19.3 | [Repo](https://github.com/littlebearapps/pitchdocs) |
-| **ContextDocs** | AI context file management for 7 tools — generate, maintain, and audit AGENTS.md, CLAUDE.md, .cursorrules with Signal Gate filtering | v1.1.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
+| **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.1.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
 
 ## 💡 What Are Claude Code Plugins?
 
