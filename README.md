@@ -23,8 +23,8 @@
 
 | Plugin | What It Does | Version | Links |
 |--------|-------------|---------|-------|
-| **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 13 commands, 3-agent pipeline | v1.19.3 | [Repo](https://github.com/littlebearapps/pitchdocs) |
-| **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.1.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
+| **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 15 commands | v2.0.0 | [Repo](https://github.com/littlebearapps/pitchdocs) |
+| **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.2.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
 
 ## 💡 What Are Claude Code Plugins?
 
@@ -70,9 +70,10 @@ See the full command list in the [PitchDocs README](https://github.com/littlebea
 Keep AI context files fresh and consistent across tools.
 
 ```
-/contextdocs:generate          # Generate context files for your project
-/contextdocs:audit             # Check context file health and freshness
-/contextdocs:context-guard     # Install hooks that warn on stale context
+/contextdocs:ai-context          # Generate context files for your project
+/contextdocs:ai-context audit    # Check context file health and freshness
+/contextdocs:context-guard       # Install hooks that warn on stale context
+/contextdocs:context-verify      # Score context file quality (0–100)
 ```
 
 See the full command list in the [ContextDocs README](https://github.com/littlebearapps/contextdocs#readme).
