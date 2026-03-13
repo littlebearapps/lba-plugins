@@ -30,7 +30,7 @@
         "source": "url",
         "url": "https://github.com/littlebearapps/contextdocs.git"
       },
-      "description": "AI context file management for 7 tools. Generate, maintain, and audit AGENTS.md, CLAUDE.md, .cursorrules, and more with Signal Gate filtering and Context Guard hooks.",
+      "description": "Your AI agent maintains its own context files — a Claude Code plugin with an AGENTS-first model that covers Codex, Copilot, Cursor, Gemini, and 3 more tools.",
       "category": "developer-tools",
       "tags": ["ai-context", "agents-md", "claude-md", "context-guard", "signal-gate", "cursor", "copilot"],
       "author": {
