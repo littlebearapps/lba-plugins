@@ -39,6 +39,22 @@
       },
       "homepage": "https://github.com/littlebearapps/contextdocs",
       "license": "MIT"
+    },
+    {
+      "name": "claude-ads",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/littlebearapps/claude-ads.git"
+      },
+      "description": "Multi-platform paid-advertising audit & optimisation — 250+ weighted checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple & Amazon Ads, with parallel audit agents, attribution + server-side tracking deep dives, PPC math, A/B test design, and AI creative generation.",
+      "category": "marketing",
+      "tags": ["advertising", "google-ads", "meta-ads", "audit", "ppc", "attribution", "creative-generation"],
+      "author": {
+        "name": "Little Bear Apps",
+        "email": "hello@littlebearapps.com"
+      },
+      "homepage": "https://github.com/littlebearapps/claude-ads",
+      "license": "MIT"
     }
   ]
 }

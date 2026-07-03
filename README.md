@@ -25,6 +25,7 @@
 |--------|-------------|---------|-------|
 | **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 15 commands | v2.0.0 | [Repo](https://github.com/littlebearapps/pitchdocs) |
 | **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.2.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
+| **Claude Ads** | Paid-advertising audit & optimisation — 250+ checks across Google, Meta, TikTok, LinkedIn & more, with parallel agents, attribution deep dives, and AI creative | v1.7.0 | [Repo](https://github.com/littlebearapps/claude-ads) |
 
 ## 💡 What Are Claude Code Plugins?
 
@@ -77,6 +78,19 @@ Keep AI context files fresh and consistent across tools.
 ```
 
 See the full command list in the [ContextDocs README](https://github.com/littlebearapps/contextdocs#readme).
+
+### Claude Ads
+
+Audit and optimise paid advertising across every major platform.
+
+```
+/ads audit                     # Full multi-platform audit with parallel agents
+/ads google                    # Google Ads deep analysis (incl. AI Max)
+/ads plan <industry>           # Strategic ad plan by industry
+/ads report                    # Client-ready PDF audit report
+```
+
+See the full command list in the [Claude Ads README](https://github.com/littlebearapps/claude-ads#readme).
 
 ## 🐻 About
 
