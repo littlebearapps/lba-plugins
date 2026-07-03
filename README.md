@@ -26,6 +26,7 @@
 | **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 15 commands | v2.0.0 | [Repo](https://github.com/littlebearapps/pitchdocs) |
 | **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.2.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
 | **Claude Ads** | Paid-advertising audit & optimisation — 250+ checks across Google, Meta, TikTok, LinkedIn & more, with parallel agents, attribution deep dives, and AI creative | v1.7.0 | [Repo](https://github.com/littlebearapps/claude-ads) |
+| **Claude SEO** | Comprehensive SEO analysis — technical, content (E-E-A-T), schema, AI/GEO, local, e-commerce & international — 25 skills + 18 parallel audit agents grounded in primary-source Google doctrine | v2.2.0 | [Repo](https://github.com/littlebearapps/claude-seo) |
 
 ## 💡 What Are Claude Code Plugins?
 
@@ -91,6 +92,19 @@ Audit and optimise paid advertising across every major platform.
 ```
 
 See the full command list in the [Claude Ads README](https://github.com/littlebearapps/claude-ads#readme).
+
+### Claude SEO
+
+Audit and plan SEO across technical, content, schema, local, and AI search.
+
+```
+/seo audit <url>               # Full site audit with up to 15 parallel agents
+/seo page <url>                # Deep single-page analysis
+/seo geo <url>                 # AI search / Generative Engine Optimisation
+/seo local <url>               # Local SEO (GBP, citations, reviews, map pack)
+```
+
+See the full command list in the [Claude SEO README](https://github.com/littlebearapps/claude-seo#readme).
 
 ## 🐻 About
 

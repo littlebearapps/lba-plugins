@@ -55,6 +55,22 @@
       },
       "homepage": "https://github.com/littlebearapps/claude-ads",
       "license": "MIT"
+    },
+    {
+      "name": "claude-seo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/littlebearapps/claude-seo.git"
+      },
+      "description": "Comprehensive SEO analysis — technical SEO, content quality (E-E-A-T), Schema.org markup, AI search / GEO, local, e-commerce & international SEO. 25 sub-skills and 18 parallel audit agents grounded in primary-source Google doctrine, with PDF reporting and hardened SSRF/DNS-rebinding safe fetchers.",
+      "category": "marketing",
+      "tags": ["seo", "technical-seo", "content-quality", "schema-markup", "local-seo", "geo", "ai-search", "google-search-console"],
+      "author": {
+        "name": "Little Bear Apps",
+        "email": "hello@littlebearapps.com"
+      },
+      "homepage": "https://github.com/littlebearapps/claude-seo",
+      "license": "MIT"
     }
   ]
 }
