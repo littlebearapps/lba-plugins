@@ -23,10 +23,10 @@
 
 | Plugin | What It Does | Version | Links |
 |--------|-------------|---------|-------|
-| **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 15 commands | v2.0.0 | [Repo](https://github.com/littlebearapps/pitchdocs) |
-| **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.2.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
-| **Claude Ads** | Paid-advertising audit & optimisation — 250+ checks across Google, Meta, TikTok, LinkedIn & more, with parallel agents, attribution deep dives, and AI creative | v1.7.0 | [Repo](https://github.com/littlebearapps/claude-ads) |
-| **Claude SEO** | Comprehensive SEO analysis — technical, content (E-E-A-T), schema, AI/GEO, local, e-commerce & international — 25 skills + 18 parallel audit agents grounded in primary-source Google doctrine | v2.2.0 | [Repo](https://github.com/littlebearapps/claude-seo) |
+| **PitchDocs** | READMEs that sell, changelogs, roadmaps, user guides, and docs suite auditing — 16 skills, 15 commands | v2.2.0 | [Repo](https://github.com/littlebearapps/pitchdocs) |
+| **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.5.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
+| **Claude Ads** | Paid-advertising audit & optimisation — 250+ weighted checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple & Amazon Ads, with parallel agents, attribution + server-side tracking deep dives, PPC math, A/B test design, and AI creative | v1.8.1 | [Repo](https://github.com/littlebearapps/claude-ads) |
+| **Claude SEO** | Comprehensive SEO analysis — technical, content (E-E-A-T), schema, AI/GEO, local, e-commerce & international — 29 skills + 22 parallel audit agents grounded in primary-source Google doctrine, with PDF reporting and hardened SSRF-safe fetchers | v2.3.1 | [Repo](https://github.com/littlebearapps/claude-seo) |
 
 ## 💡 What Are Claude Code Plugins?
 
@@ -43,7 +43,13 @@ Marketplaces like this one let you discover and install plugins with a single co
 # Install a plugin
 /plugin install pitchdocs@lba-plugins
 /plugin install contextdocs@lba-plugins
+/plugin install claude-ads@lba-plugins
+/plugin install claude-seo@lba-plugins
 ```
+
+> **Not seeing a newly-added plugin in the `/plugin` browser?** The browser renders a cached
+> catalogue. Run `/plugin marketplace update lba-plugins`, then quit and relaunch Claude Code so it
+> rebuilds the catalog cache.
 
 ### Updating
 
@@ -112,4 +118,4 @@ See the full command list in the [Claude SEO README](https://github.com/littlebe
 
 ## 📄 Licence
 
-This marketplace catalogue is released under the [MIT Licence](LICENSE). Each plugin is independently licensed — see [PitchDocs licence](https://github.com/littlebearapps/pitchdocs/blob/main/LICENSE) and [ContextDocs licence](https://github.com/littlebearapps/contextdocs/blob/main/LICENSE).
+This marketplace catalogue is released under the [MIT Licence](LICENSE). Each plugin is independently licensed — see [PitchDocs licence](https://github.com/littlebearapps/pitchdocs/blob/main/LICENSE), [ContextDocs licence](https://github.com/littlebearapps/contextdocs/blob/main/LICENSE), [Claude Ads licence](https://github.com/littlebearapps/claude-ads/blob/main/LICENSE), and [Claude SEO licence](https://github.com/littlebearapps/claude-seo/blob/main/LICENSE).
