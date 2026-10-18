@@ -71,6 +71,24 @@
       },
       "homepage": "https://github.com/littlebearapps/claude-seo",
       "license": "MIT"
+    },
+    {
+      "name": "plainspoken",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/littlebearapps/plainspoken.git",
+        "ref": "v0.4.0",
+        "sha": "65de63b20daa74d3d059b0e53fab669a54efccf4"
+      },
+      "description": "Write like a person, not an AI: anti-AI-tells engine with isolated judges, voice profiles, plain language, claims integrity and built-in kaizen.",
+      "category": "writing",
+      "tags": ["writing", "anti-ai", "voice", "plain-language", "editing", "kaizen"],
+      "author": {
+        "name": "Little Bear Apps",
+        "email": "hello@littlebearapps.com"
+      },
+      "homepage": "https://github.com/littlebearapps/plainspoken",
+      "license": "LicenseRef-Proprietary"
     }
   ]
 }

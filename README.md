@@ -27,6 +27,7 @@
 | **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.5.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
 | **Claude Ads** | Paid-advertising audit & optimisation — 250+ weighted checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple & Amazon Ads, with parallel agents, attribution + server-side tracking deep dives, PPC math, A/B test design, and AI creative | v1.8.1 | [Repo](https://github.com/littlebearapps/claude-ads) |
 | **Claude SEO** | Comprehensive SEO analysis — technical, content (E-E-A-T), schema, AI/GEO, local, e-commerce & international — 29 skills + 22 parallel audit agents grounded in primary-source Google doctrine, with PDF reporting and hardened SSRF-safe fetchers | v2.3.1 | [Repo](https://github.com/littlebearapps/claude-seo) |
+| **plainspoken** | Write like a person, not an AI — anti-AI-tells lint with four isolated judges, voice profiles, plain language, claims integrity and a built-in kaizen loop (private: needs access to the repo) | v0.4.0 | [Repo](https://github.com/littlebearapps/plainspoken) |
 
 ## 💡 What Are Claude Code Plugins?
 
@@ -45,6 +46,7 @@ Marketplaces like this one let you discover and install plugins with a single co
 /plugin install contextdocs@lba-plugins
 /plugin install claude-ads@lba-plugins
 /plugin install claude-seo@lba-plugins
+/plugin install plainspoken@lba-plugins   # private: run `gh auth login && gh auth setup-git` first
 ```
 
 > **Not seeing a newly-added plugin in the `/plugin` browser?** The browser renders a cached
@@ -57,6 +59,10 @@ Marketplaces like this one let you discover and install plugins with a single co
 # Pull the latest plugin versions
 /plugin marketplace update lba-plugins
 ```
+
+Background auto-update is off for third-party marketplaces until you turn it on: in `/plugin`, open
+**Marketplaces**, select `lba-plugins` and choose **Enable auto-update**. For the private plugins, the background
+check uses your stored git credential (`gh auth setup-git`) and never prompts.
 
 ## 🎯 Plugin Highlights
 
@@ -112,10 +118,23 @@ Audit and plan SEO across technical, content, schema, local, and AI search.
 
 See the full command list in the [Claude SEO README](https://github.com/littlebearapps/claude-seo#readme).
 
+### plainspoken
+
+Make Claude's writing read like a person wrote it, in your own voice, with every claim traceable.
+
+```
+/plainspoken:check post.md        # lint + four isolated judges + fix passes → PASS / FAIL
+/plainspoken:humanize post.md     # rewrite out the AI tells without a full check
+/plainspoken:write notes.md       # draft from your notes
+/plainspoken:claims post.md       # verify numbers, quotes, names and dates against saved sources
+```
+
+Private plugin: install needs read access to the repo.
+
 ## 🐻 About
 
 [Little Bear Apps](https://littlebearapps.com) builds microtools — small, focused utilities that do one thing well. These plugins follow the same philosophy: each solves a specific documentation or developer-experience problem without bloat.
 
 ## 📄 Licence
 
-This marketplace catalogue is released under the [MIT Licence](LICENSE). Each plugin is independently licensed — see [PitchDocs licence](https://github.com/littlebearapps/pitchdocs/blob/main/LICENSE), [ContextDocs licence](https://github.com/littlebearapps/contextdocs/blob/main/LICENSE), [Claude Ads licence](https://github.com/littlebearapps/claude-ads/blob/main/LICENSE), and [Claude SEO licence](https://github.com/littlebearapps/claude-seo/blob/main/LICENSE).
+This marketplace catalogue is released under the [MIT Licence](LICENSE). Each plugin is independently licensed — see [PitchDocs licence](https://github.com/littlebearapps/pitchdocs/blob/main/LICENSE), [ContextDocs licence](https://github.com/littlebearapps/contextdocs/blob/main/LICENSE), [Claude Ads licence](https://github.com/littlebearapps/claude-ads/blob/main/LICENSE), [Claude SEO licence](https://github.com/littlebearapps/claude-seo/blob/main/LICENSE), and [plainspoken licence](https://github.com/littlebearapps/plainspoken/blob/main/LICENSE).
