@@ -27,7 +27,7 @@
 | **ContextDocs** | Your AI agent maintains its own context files — CLAUDE.md, AGENTS.md, and 5 more, always fresh, always lean | v1.5.0 | [Repo](https://github.com/littlebearapps/contextdocs) |
 | **Claude Ads** | Paid-advertising audit & optimisation — 250+ weighted checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple & Amazon Ads, with parallel agents, attribution + server-side tracking deep dives, PPC math, A/B test design, and AI creative | v1.8.1 | [Repo](https://github.com/littlebearapps/claude-ads) |
 | **Claude SEO** | Comprehensive SEO analysis — technical, content (E-E-A-T), schema, AI/GEO, local, e-commerce & international — 29 skills + 22 parallel audit agents grounded in primary-source Google doctrine, with PDF reporting and hardened SSRF-safe fetchers | v2.3.1 | [Repo](https://github.com/littlebearapps/claude-seo) |
-| **plainspoken** | Write like a person, not an AI — anti-AI-tells lint with four isolated judges, voice profiles, plain language, claims integrity and a built-in kaizen loop. Claude Code, Codex and Hermes Agent (MIT) | v0.8.0 | [Repo](https://github.com/littlebearapps/plainspoken) |
+| **plainspoken** | Write like a person, not an AI — anti-AI-tells lint with four isolated judges, voice profiles, plain language, claims integrity and a built-in kaizen loop. Claude Code, Codex and Hermes Agent (MIT) | v0.9.0 | [Repo](https://github.com/littlebearapps/plainspoken) |
 
 ## 💡 What Are Claude Code Plugins?
 
