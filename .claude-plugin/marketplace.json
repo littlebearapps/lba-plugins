@@ -77,8 +77,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/littlebearapps/plainspoken.git",
-        "ref": "v0.11.0",
-        "sha": "2db34047e49dde70220249b7b5f746b23d6ad67a"
+        "ref": "v0.12.0",
+        "sha": "dd11930f05c2a995bf9fc222bdbe8819408dd266"
       },
       "description": "Write like a person, not an AI: anti-AI-tells engine with isolated judges, voice profiles, plain language, claims integrity and built-in kaizen.",
       "category": "writing",
